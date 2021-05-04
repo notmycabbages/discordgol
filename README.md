@@ -5,15 +5,20 @@ A simple bot that creates a 12x12 Conways Game of Life (gol)
 ## Usage
 
 ### Running the bot
+
 This example uses bot tokens for authentication only. While user/password is supported by DiscordGo, it is not recommended for bots.
-```
+
+```bash
 ./discordgol --help
 
 Usage of ./discordgol:
   -t string
         Bot Token
-The below example shows how to start the bot
 ```
+
+The below example shows how to start the bot
+
+```bash
 ./discordgol -t YOUR_BOT_TOKEN
 Bot is now running.  Press CTRL-C to exit.
 ```
